@@ -1147,7 +1147,7 @@
   // ── DOWNLOAD CV ──
   async function downloadCV() {
     try {
-      const response = await fetch('sibtain_raza_khan_resume_.pdf');
+      const response = await fetch('Resume%20(1)%20(4).pdf');
       if (!response.ok) throw new Error('not found');
       const blob = await response.blob();
       const url = URL.createObjectURL(blob);
